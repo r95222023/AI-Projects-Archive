@@ -1,2 +1,2 @@
 # AI-Projects-Archive
-This repository contains a collection of old AI practice and homework projects. These projects were developed as part of coursework and include a variety of AI-based systems and explorations.
+This repository contains a collection of AI practice projects created during coursework, showcasing various AI systems and experiments. These projects are intended for study and reference.

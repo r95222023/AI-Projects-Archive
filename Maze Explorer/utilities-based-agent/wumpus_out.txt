@@ -1,0 +1,13 @@
+Wumpus-Lite v0.18a
+
+Dimensions: 4x4
+Maximum number of steps: 50
+Number of trials: 100000
+Random Agent Location: false
+Random number seed: 1989408040
+Output filename: wumpus_out.txt
+Non-Deterministic Behavior: false
+
+
+Total Score: 53016384
+Average Score: 530.16384
