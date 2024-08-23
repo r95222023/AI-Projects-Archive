@@ -1,7 +1,11 @@
-# Maze Explorer-Learning Agent
-A learning agent in the Maze Explorer project is designed to adapt its strategy based on experience as it navigates the Wumpus World. Unlike other agents that rely on predefined rules or models, the learning agent uses reinforcement learning to improve its decision-making over time.
+# Maze Explorer-Model-Based Agent
+A model-based agent in the Maze Explorer project solves the challenge of navigating the Wumpus World by using an internal model of the environment to make informed decisions.
 
-As the learning agent explores the Wumpus World, it learns from its actions by receiving feedback from the environment. Positive feedback, such as finding gold, reinforces successful actions, while negative feedback, like falling into a trap or encountering the Wumpus, penalizes undesirable behaviors. By repeatedly interacting with the environment, the learning agent gradually develops a policy that maximizes its chances of finding gold while minimizing the risk of encountering dangers. This adaptive approach allows the learning agent to become more efficient and effective in navigating the Wumpus World with each exploration.
+The model-based agent maintains a representation of the Wumpus World, which includes information about the agent’s current state, observed features of the environment (such as the presence of pits, the Wumpus, and gold), and the outcomes of previous actions. This internal model is continuously updated based on the agent's experiences and observations.
+
+When making decisions, the model-based agent uses this internal model to simulate possible actions and predict their outcomes. By evaluating these simulations, the agent can anticipate the consequences of its actions and choose the most advantageous course of action. For example, it can plan a path that avoids known hazards and moves it closer to gold, taking into account both the immediate environment and the accumulated knowledge about the world.
+
+This approach allows the model-based agent to systematically explore the Wumpus World and adapt its strategy based on a comprehensive understanding of the environment. For more details on the model-based approach, check Model-Based Agent for Wumpus World.pdf.
 
 ## Getting Started
 
